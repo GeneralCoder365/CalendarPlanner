@@ -1,3 +1,6 @@
+# cd D:\Personal_Folders\Tocho\Programming\CalendarPlanner\htr\src
+# python file_name.py
+
 import argparse
 import json
 
@@ -12,11 +15,10 @@ from SamplePreprocessor import preprocess
 
 class FilePaths:
     "filenames and paths to data"
-    # fnCharList = '../model/charList.txt'
-    fnCharList = 'model/charList.txt'
-    fnSummary = 'model/summary.json'
-    fnInfer = 'data/test.png'
-    fnCorpus = 'data/corpus.txt'
+    fnCharList = '../model/charList.txt'
+    fnSummary = '../model/summary.json'
+    fnInfer = '../data/test.png'
+    fnCorpus = '../data/corpus.txt'
 
 
 def write_summary(charErrorRates, wordAccuracies):
